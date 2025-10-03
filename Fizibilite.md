@@ -5,7 +5,7 @@ Bu proje ile, kullanıcıların herhangi bir cihaz (mobil, web, masaüstü) üze
 
 2. Proje Kapsamı
 - Platformlar: Web (tarayıcı), Mobil (Android & iOS), Masaüstü (Windows & Mac, Electron ile)
-- Temel Özellikler:
+- Müşterinin istedikleri:
   1. Kullanıcı adı ile giriş yapabilme
   2. Meeting oluşturma (otomatik ID üretimi)
   3. Meetinge katılma (ID girerek)
@@ -47,4 +47,4 @@ Toplam süre: 6 hafta
 Hazır SDK’lar sayesinde karmaşık alt yapı geliştirmeye gerek yoktur. Projede kullanıcı arayüzü ve SDK entegrasyonu yeterlidir.
 
 
-Özet: Sade ama çoklu platform desteği olan, temel meeting özelliklerine sahip bir uygulama geliştirilmesi hedeflenmektedir. SDK desteği sayesinde uygulanabilirliği yüksek, süre açısından makul, eğitimsel katkısı büyük bir projedir.
+Özet: Sade ama çoklu platform desteği olan, temel meeting özelliklerine sahip bir uygulama geliştirilmesi hedeflenmektedir. SDK desteği sayesinde uygulanabilirliği yüksek, süre açısından makul, Şirketsel katkısı büyük olan bir projedir.
