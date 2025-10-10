@@ -1,50 +1,42 @@
-📑 Meeting Uygulaması – Fizibilite Raporu
+FİZİBİLİTE RAPORU
 
-1. Projenin Amacı
-Bu proje ile, kullanıcıların herhangi bir cihaz (mobil, web, masaüstü) üzerinden basit ve hızlı şekilde toplantı (meeting) oluşturup katılabileceği bir uygulama geliştirilmesi hedeflenmektedir. Uygulama; giriş, meeting oluşturma, meetinge katılma, kamera ve mikrofon kontrolü gibi temel özellikleri içerecektir.
+Projenin Adı: Meeting Uygulaması
 
-2. Proje Kapsamı
-- Platformlar: Web (tarayıcı), Mobil (Android & iOS), Masaüstü (Windows & Mac, Electron ile)
-- Müşterinin istedikleri:
-  1. Kullanıcı adı ile giriş yapabilme
-  2. Meeting oluşturma (otomatik ID üretimi)
-  3. Meetinge katılma (ID girerek)
-  4. Katılımcı listesi
-  5. Mikrofon açma/kapama
-  6. Kamera açma/kapama
-  7. Meetingden çıkma
+Projenin Amacı:
+Meeting Uygulaması projesi, kullanıcıların farklı platformlardan (web, mobil, masaüstü) hızlı, güvenli ve kolay şekilde toplantı oluşturmasını ve bu toplantılara katılmasını sağlamayı amaçlamaktadır. Temel hedef, kullanıcıya sade ama etkili bir toplantı deneyimi sunmaktır.
 
+Hedef Kitle:
+Kurumlar, eğitim kurumları, şirketler, bireysel kullanıcılar
 
-3. Kullanılacak Teknolojiler
-- Gerçek zamanlı iletişim (RTC): Agora SDK (veya WebRTC, Daily, Twilio)
-- Frontend: Web: React.js, Mobil: React Native, Masaüstü: Electron.js
-- Backend: Node.js + Express (oda ID ve kullanıcı bilgisi oluşturma) veya Firebase
+Teknik Olarak Yapılabilir Mi?
+Teknik olarak bu proje, hazır gerçek zamanlı iletişim (RTC) SDK’ları (Agora, WebRTC vb.) kullanılarak geliştirilebilir. Web, mobil ve masaüstü platformlarda çalışan sürümleri yapılabilir.
 
+Yasal Açıdan Sıkıntılar Var Mı?
+Proje kapsamında kullanıcı verileri açık şekilde paylaşılmayacak, veri güvenliği sağlanacaktır. Kullanıcı verileri KVKK ve benzeri veri koruma yasalarına uygun şekilde saklanacaktır.
 
-4. Gereken Donanım / Yazılım
-- Geliştirme bilgisayarı: Orta seviye laptop
-- Yazılım araçları: VS Code, Node.js, Git/GitHub
+Rakiplerin Durumu Nedir?
+Zoom, Google Meet gibi büyük rakipler olsa da bu uygulama daha sade, hızlı ve özelleştirilebilir yapısıyla farklı bir kullanıcı kitlesine hitap edecektir. Özellikle küçük ve orta ölçekli işletmelere uygun fiyatlı bir alternatif olacaktır.
 
+Projenin Karlılık Durumu Nasıldır?
+Proje freemium (ücretsiz temel + ücretli premium) modeliyle pazara sunulabilir.
+- Aylık 100 TL premium üye ücretiyle, 1.000 aktif kullanıcıdan aylık 100.000 TL gelir hedeflenebilir.
+- Ek olarak kurumsal paketler sunularak gelir artırılabilir.
+- Sunucu ve SDK maliyetleri aylık yaklaşık 30.000 TL civarında olacaktır.
+Bu durumda ilk yıl için yaklaşık gelir: 100.000 TL x 12 = 1.200.000 TL
+İlk yıl için yaklaşık gider: 30.000 TL x 12 = 360.000 TL
+Yıllık tahmini kâr: 1.200.000 TL - 360.000 TL = 840.000 TL
+Bu, projenin karlı bir yatırım olabileceğini göstermektedir.
 
-5. Proje Takvimi (Tahmini)
-- Hafta 1: Araştırma ve SDK seçimi
-- Hafta 2: Backend (oda ID & kullanıcı adı mantığı)
-- Hafta 3: Web arayüzü (React)
-- Hafta 4: Mobil uygulama (React Native)
-- Hafta 5: Masaüstü sürümü (Electron)
-- Hafta 6: Testler ve sunum
-Toplam süre: 6 hafta
+Riskler Nelerdir?
+- Kullanıcıların mevcut uygulamalara alışık olması (Zoom, Google Meet vs.)
+- Gerçek zamanlı bağlantı kalitesinin SDK’ya bağlı olması
+- Rekabetin yüksek olması
+Ancak sade arayüz, düşük maliyet, kullanım kolaylığı ile bu riskler azaltılabilir.
 
+Sonuç:
+Yapılan fizibilite çalışmasında projenin teknik olarak uygulanabilir olduğu, yasalarla uyumlu olduğu ve karlılık açısından uygun olduğu görülmüştür. Rekabet riski olsa da hedef kitlenin ihtiyaçlarına göre konumlandırma ile bu riskler aşılabilir.
 
-6. Projenin Katkıları
-- Gerçek zamanlı iletişim teknolojilerinin öğrenilmesi
-- Web, mobil ve masaüstü için tek altyapı ile çoklu platform deneyimi
-- Hazır SDK entegrasyonu pratiği
-- Basit ve işlevsel ürün ile sunum yapabilme
+Tüm bunlar değerlendirildiğinde projenin yapılması uygundur.
 
-
-7. Uygulanabilirlik
-Hazır SDK’lar sayesinde karmaşık alt yapı geliştirmeye gerek yoktur. Projede kullanıcı arayüzü ve SDK entegrasyonu yeterlidir.
-
-
-Özet: Sade ama çoklu platform desteği olan, temel meeting özelliklerine sahip bir uygulama geliştirilmesi hedeflenmektedir. SDK desteği sayesinde uygulanabilirliği yüksek, süre açısından makul, Şirketsel katkısı büyük olan bir projedir.
+İbrahim Halil Acar  
+.../.../25
